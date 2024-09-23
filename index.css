@@ -1,0 +1,13 @@
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f0ece2; margin: 0; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; line-height: 1.2}
+h1 {text-align: center; color: #827055}
+#desc {margin-bottom: 35px}
+form {margin-bottom: 15px; padding: 15px; border: 2px solid #ccc; border-radius: 8px; background-color: #ffffff; display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 400px; color: #827055}
+label {font-size: 18px}
+input {padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; transition: border-color 0.3s}
+input:focus {border-color: #827055; outline: none}
+button {padding: 8px 12px; font-size: 16px; color: white; background-color: #827055; border: none; border-radius: 8px; cursor: pointer; font-family: inherit; transition: background-color 0.3s; }
+button:hover {background-color: #a78f6d}
+#container {margin-top: 20px; padding: 15px; border: 2px solid #c7b198; border-radius: 8px; background-color: #dfd3c3; display: none; text-align: center}
+#container.show {display: block}
+h2 {color: #827055}
+p {font-size: 16px; color: #333; text-align: center}
