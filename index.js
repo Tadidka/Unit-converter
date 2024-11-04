@@ -34,4 +34,4 @@ function render(){
      document.getElementById("title").style.display = "none";
 }
 
-document.getElementById("convert-btn").addEventListener("click", render)
+numInput.addEventListener("keyup", render)
